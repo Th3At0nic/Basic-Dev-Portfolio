@@ -222,3 +222,59 @@ header button {
     border: 1px solid rgba(13, 19, 33, 0.15);
     background: #FFF;
 }
+
+/* contact section   */
+
+#contact-section {
+    display: flex;
+    width: 1335px;
+    margin: 100px auto;
+    padding: 60px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;
+
+}
+
+#contact-title {
+    color: #FFF;
+    font-size: 32px;
+    line-height: 0%;
+    font-weight: 700;
+}
+
+#contact-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 606px;
+}
+
+#contact-inp-container{
+    display: flex;
+    gap: 15px;
+}
+
+#contact-inp {
+    width: 548px;
+    padding: 19px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+
+#contact-submit {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: #FFF;
+}
